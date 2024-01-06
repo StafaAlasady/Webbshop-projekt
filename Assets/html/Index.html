@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Remix feather-icons -->
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"/>
     <!-- Remix feather-icons -->
 
     <!-- My Styles! -->
@@ -26,14 +28,78 @@
             <div class="nav_menu">
                 <form action="" class="nav_form">
                     <span class="nav_search-icon">
-                        <img src="./Assets/logos/search.svg" alt="" class="search-logo">
+                        <i class="ri-search-line"></i>
                     </span>
                     <input type="text" placeholder="search" class="nav_search-input">
                 </form>
+                <ul class="nav_list">
+                    <li class="nav_list-item">
+                        <a href="#" class="nav_list-link">Marketplace</a>
+                    </li><li class="nav_list-item">
+                        <a href="#" class="nav_list-link">Explore</a>
+                    </li><li class="nav_list-item">
+                        <a href="#" class="nav_list-link">Community</a>
+                    </li>
+                </ul>
+                <!-- button for connecting creditcard -->
+                <a href="#" class="button button--dark nav__button">Koppla creditkort</a>
+                <!-- Button for closing -->
+                <button type="button" data-toggle="close" class="button button--action nav_close">
+                    <i class="ri-close-circle-line"></i>
+                </button>
             </div>
+            <button type="button" data-toggle="open" class="button button--action nav_open">
+                <i class="ri-menu-5-line"></i>
+            </button>
         </Nav>
 
     </Header>
+
+    <!-- main -->
+    <main>
+        <!-- showcase -->
+        <section class="showcase">
+            <div class="showcase_container row container">
+                <div class="showcase__text-group">
+                    <h1 class="showcase__title title title--main">
+                        Explore Legendary Art and Ai Creation.
+                    </h1>
+                    <p class="showcase_paragraph">
+                        Hitta, skapa och sälj extraordinära AI genererade Bilder igenom 
+                        våran underbara platform
+                        din utryck dig själv
+                        igenom oss
+                    </p>
+                    <a href="#" class="button button--normal button-pink showcase__button">
+                        Buy Art</a>
+                        <div class="showcase_stats">
+                            <h2>
+                                <span class="showcase_stats-stat showcase__stats-stat count">30k+</span>
+                                <span class="showcase_stats-stat showcase__stats-stat category">Artworks
+                                </span>
+                            </h2>
+                            <h2>
+                                <span class="showcase_stats-stat showcase__stats-stat count">10k+</span>
+                                <span class="showcase_stats-stat showcase__stats-stat category">Artists
+                                </span>
+                            </h2>
+                            <h2>
+                                <span class="showcase_stats-stat showcase__stats-stat count">1k</span>
+                                <span class="showcase_stats-stat showcase__stats-stat category">Limited edition art
+                                </span>
+                            </h2>
+                        </div>
+                        <div class="showcase_image-group">
+                            <picture>
+                                <source media="(min-width: 64em)" srcset="./Assets/images/showcase_image_large1.png">
+                                <img src="./Assets/images/showcase_image_large1.png" alt="">
+                            </picture>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
 
     <script src="./Assets/js/App.js"></script>
     
