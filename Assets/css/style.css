@@ -157,7 +157,7 @@ section{
     width: 27rem;
     background-color: var(--accent-clr);
     padding: 5.4rem 1.8rem;
-    transform: translateX(28rem);
+    /*transform: translateX(28rem);*/
     transition: transform .25s;
 }
 
@@ -165,7 +165,7 @@ section{
     transform: translateX(0);
 }
 
-.nav__search{
+.nav_search{
     display: flex;
     align-items: center;
     column-gap: 1rem;
@@ -180,7 +180,7 @@ section{
 }
 
 .nav__search-icon{
-    display:inline-flex;
+    display: inline-flex;
 }
 .nav__search-input{
     width: 100%;
@@ -195,7 +195,7 @@ section{
     opacity: 0;
 }
 
-.nav__list{
+.nav_list{
     display: flex;
     flex-direction: column;
     gap: .5rem;
