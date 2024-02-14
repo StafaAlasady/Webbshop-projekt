@@ -31,6 +31,7 @@
 
 html{
     font-size: 62.5%;
+    background-color: #6ee2ff;
 }
 
 body{
@@ -193,9 +194,8 @@ animation: moving 2s linear infinite;
 
 /*above is footer-content */
 .nav_logo-image{
-    width: 110px;
-    height: 80px;
-
+    width: 65px;
+    height: 70px;
 }
 
 body.scroll-false{
@@ -294,7 +294,7 @@ section{
 
 /* header */
 
-.header{
+.Header{
     position: absolute;
     top: 0;
     left: 0;
