@@ -92,6 +92,11 @@ footer{
     margin-bottom: 12px;
 }
 
+.footer-links:hover{
+    color: var(--pink-clr);
+
+}
+
 ul li .footer-links{
     text-decoration: none;
     color: #fff;
@@ -137,6 +142,10 @@ ul li .footer-links{
     font-size: 35px;
     margin-right: 15px;
     cursor: pointer;
+}
+.ico:hover{
+    color: var(--pink-clr);
+
 }
 
 hr{
